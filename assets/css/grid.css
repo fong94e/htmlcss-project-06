@@ -1,6 +1,7 @@
 /* X-Small devices (portrait phones, less than 576px) */
 /* No media query for `xs` since this is the default in Bootstrap */
 
+.extra-container,
 .container {
   width: 100%;
   margin-right: auto;
@@ -185,6 +186,9 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .header-container {
+    max-width: 540px;
+  }
   .container {
     max-width: 540px;
     --spacer: 10px;
@@ -308,6 +312,9 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .header-container {
+    max-width: 730px;
+  }
   .container {
     max-width: 720px;
     --spacer: 10px;
@@ -431,6 +438,9 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .header-container {
+    max-width: 980px;
+  }
   .container {
     max-width: 960px;
     --spacer: 20px;
@@ -554,6 +564,9 @@
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .header-container {
+    max-width: 1480px;
+  }
   .container {
     max-width: 1140px;
     --spacer: 30px;
@@ -676,8 +689,11 @@
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
+  .header-container {
+    max-width: 1330px;
+  }
   .container {
-    max-width: 1320px;
+    max-width: 1170px;
     --spacer: 30px;
   }
   .col-xxl-1 {

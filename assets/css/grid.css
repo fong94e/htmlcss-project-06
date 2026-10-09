@@ -186,9 +186,7 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .extra-container {
-    max-width: 540px;
-  }
+  .extra-container,
   .container {
     max-width: 540px;
     --spacer: 10px;
@@ -312,9 +310,7 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .extra-container {
-    max-width: 730px;
-  }
+  .extra-container,
   .container {
     max-width: 720px;
     --spacer: 10px;
@@ -438,9 +434,7 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .extra-container {
-    max-width: 980px;
-  }
+  .extra-container,
   .container {
     max-width: 960px;
     --spacer: 20px;
@@ -564,9 +558,7 @@
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .extra-container {
-    max-width: 1480px;
-  }
+  .extra-container,
   .container {
     max-width: 1140px;
     --spacer: 30px;
